@@ -1,4 +1,7 @@
 import { Product } from '../types/product';
+import ac1 from '../assets/ac-1.jpg';
+import ac2 from '../assets/ac-2.jpg';
+import ac3 from '../assets/ac-3.jpg';
 import ac6 from '../assets/ac-6.jpg';
 
 export const products: Product[] = [
@@ -24,9 +27,9 @@ export const products: Product[] = [
       noiseLevel: '36dB',
       warranty: '1 Year Comprehensive + 5 Years on Compressor'
     },
-    imageUrl: 'https://images.pexels.com/photos/7031396/pexels-photo-7031396.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageUrl: ac1,
     images: [
-      'https://images.pexels.com/photos/7031396/pexels-photo-7031396.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      ac1,
       'https://images.pexels.com/photos/5835359/pexels-photo-5835359.jpeg?auto=compress&cs=tinysrgb&w=1200'
     ],
     isFeatured: true
@@ -52,9 +55,9 @@ export const products: Product[] = [
       noiseLevel: '38dB',
       warranty: '1 Year Comprehensive + 5 Years on Compressor'
     },
-    imageUrl: 'https://images.pexels.com/photos/5835359/pexels-photo-5835359.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageUrl: ac2,
     images: [
-      'https://images.pexels.com/photos/5835359/pexels-photo-5835359.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      ac2,
       'https://images.pexels.com/photos/6510959/pexels-photo-6510959.jpeg?auto=compress&cs=tinysrgb&w=1200'
     ],
     isFeatured: true
@@ -81,9 +84,9 @@ export const products: Product[] = [
       noiseLevel: '35dB',
       warranty: '1 Year Comprehensive + 10 Years on Compressor'
     },
-    imageUrl: 'https://images.pexels.com/photos/6510959/pexels-photo-6510959.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageUrl: ac3,
     images: [
-      'https://images.pexels.com/photos/6510959/pexels-photo-6510959.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      ac3,
       'https://images.pexels.com/photos/7031396/pexels-photo-7031396.jpeg?auto=compress&cs=tinysrgb&w=1200'
     ],
     isFeatured: true
@@ -109,9 +112,9 @@ export const products: Product[] = [
       noiseLevel: '42dB',
       warranty: '1 Year Comprehensive + 5 Years on Compressor'
     },
-    imageUrl: 'https://images.pexels.com/photos/6312302/pexels-photo-6312302.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageUrl: ac6,
     images: [
-      'https://images.pexels.com/photos/6312302/pexels-photo-6312302.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      ac6,
       'https://images.pexels.com/photos/5835359/pexels-photo-5835359.jpeg?auto=compress&cs=tinysrgb&w=1200'
     ],
     isFeatured: false
