@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import ac4 from '/home/project/src/assets/ac-4.webp';
-import ac1 from '/home/project/src/assets/ac-1.jpg';
-import ac2 from '/home/project/src/assets/ac-2.jpg';
+import ac4 from '../assets/ac-4.webp';
+import ac1 from '../assets/ac-1.jpg';
+import ac2 from '../assets/ac-2.jpg';
 
 
 interface HeroCarouselProps {
@@ -14,21 +14,21 @@ const slides = [
   {
     title: 'Experience Cooling Redefined',
     subtitle: 'Premium Air Conditioning Solutions for Modern Living',
-    image: '/home/project/src/assets/ac-4.webp',
+    image: ac4,
     cta1: 'Shop Now',
     cta2: 'Enquire Now'
   },
   {
     title: 'Smart Cooling. Lasting Comfort.',
     subtitle: 'Energy-Efficient Inverter Technology for Your Home',
-    image: '/home/project/src/assets/ac-1.jpg',
+    image: ac1,
     cta1: 'Explore Products',
     cta2: 'Get Quote'
   },
   {
     title: 'Beat the Heat in Style',
     subtitle: 'Trusted by Millions for Quality & Performance',
-    image: '/home/project/src/assets/ac-2.jpg',
+    image: ac2,
     cta1: 'View Collection',
     cta2: 'Contact Us'
   }
