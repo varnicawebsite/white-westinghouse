@@ -1,9 +1,4 @@
 import { Product } from '../types/product';
-import ac1 from '../assets/ac-1.jpg';
-import ac2 from '../assets/ac-2.jpg';
-import ac3 from '../assets/ac-3.jpg';
-import ac4 from '../assets/ac-4.webp';
-import ac5 from '../assets/ac-5.jpeg';
 import ac6 from '../assets/ac-6.jpg';
 
 export const products: Product[] = [
@@ -29,10 +24,10 @@ export const products: Product[] = [
       noiseLevel: '36dB',
       warranty: '1 Year Comprehensive + 5 Years on Compressor'
     },
-    imageUrl: ac1,
+    imageUrl: 'https://images.pexels.com/photos/7031396/pexels-photo-7031396.jpeg?auto=compress&cs=tinysrgb&w=1200',
     images: [
-      ac1,
-      ac2
+      'https://images.pexels.com/photos/7031396/pexels-photo-7031396.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      'https://images.pexels.com/photos/5835359/pexels-photo-5835359.jpeg?auto=compress&cs=tinysrgb&w=1200'
     ],
     isFeatured: true
   },
@@ -57,10 +52,10 @@ export const products: Product[] = [
       noiseLevel: '38dB',
       warranty: '1 Year Comprehensive + 5 Years on Compressor'
     },
-    imageUrl: ac2,
+    imageUrl: 'https://images.pexels.com/photos/5835359/pexels-photo-5835359.jpeg?auto=compress&cs=tinysrgb&w=1200',
     images: [
-      ac2,
-      ac3
+      'https://images.pexels.com/photos/5835359/pexels-photo-5835359.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      'https://images.pexels.com/photos/6510959/pexels-photo-6510959.jpeg?auto=compress&cs=tinysrgb&w=1200'
     ],
     isFeatured: true
   },
@@ -86,10 +81,10 @@ export const products: Product[] = [
       noiseLevel: '35dB',
       warranty: '1 Year Comprehensive + 10 Years on Compressor'
     },
-    imageUrl: ac3,
+    imageUrl: 'https://images.pexels.com/photos/6510959/pexels-photo-6510959.jpeg?auto=compress&cs=tinysrgb&w=1200',
     images: [
-      ac3,
-      ac4
+      'https://images.pexels.com/photos/6510959/pexels-photo-6510959.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      'https://images.pexels.com/photos/7031396/pexels-photo-7031396.jpeg?auto=compress&cs=tinysrgb&w=1200'
     ],
     isFeatured: true
   },
@@ -114,10 +109,10 @@ export const products: Product[] = [
       noiseLevel: '42dB',
       warranty: '1 Year Comprehensive + 5 Years on Compressor'
     },
-    imageUrl: ac4,
+    imageUrl: 'https://images.pexels.com/photos/6312302/pexels-photo-6312302.jpeg?auto=compress&cs=tinysrgb&w=1200',
     images: [
-      ac4,
-      ac5
+      'https://images.pexels.com/photos/6312302/pexels-photo-6312302.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      'https://images.pexels.com/photos/5835359/pexels-photo-5835359.jpeg?auto=compress&cs=tinysrgb&w=1200'
     ],
     isFeatured: false
   },
@@ -142,10 +137,10 @@ export const products: Product[] = [
       noiseLevel: '45dB',
       warranty: '1 Year Comprehensive'
     },
-    imageUrl: ac5,
+    imageUrl: 'https://images.pexels.com/photos/8031926/pexels-photo-8031926.jpeg?auto=compress&cs=tinysrgb&w=1200',
     images: [
-      ac5,
-      ac6
+      'https://images.pexels.com/photos/8031926/pexels-photo-8031926.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      'https://images.pexels.com/photos/7031396/pexels-photo-7031396.jpeg?auto=compress&cs=tinysrgb&w=1200'
     ],
     isFeatured: false
   },
@@ -173,7 +168,7 @@ export const products: Product[] = [
     imageUrl: ac6,
     images: [
       ac6,
-      ac1
+      'https://images.pexels.com/photos/5835359/pexels-photo-5835359.jpeg?auto=compress&cs=tinysrgb&w=1200'
     ],
     isFeatured: true
   }
